@@ -1,0 +1,35 @@
+<!DOCTYPE.html>
+<html>
+    <head>
+        <title>HOT BEANS WEBSITE Get Involved</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="banner">
+            <img src="companylogo.png" class="logo">
+            <div>
+            <h1 class="bannerh1">HOT BEANS</h1>
+            <p class="bannerp">Website Development since 2026</p>
+            </div>
+            <img src="companylogo.png" class="logo">
+        </div> <br>
+        <div class="navigation">
+            <button class="navbut" onclick="homepage()">Home</button><br>
+            <button class="navbut" onclick="meettheteam()">Meet The Team</button><br><br>
+            <button class="navbut" onclick="getinvolved()">Get Involved</button>
+            </div><br>
+            <h1 class="titleh1">Want to join us?</h1>
+
+            <br>
+    </body>
+    <footer>
+        <div class="footer">
+            <img src="companylogo.png" class="footlogo">
+            <p id="foot">HotBeansWebDev Inc.</p>
+            <img src="companylogo.png" class="footlogo">
+            <p id="foot">Company Email: HotBeans2026@gmail.com</p>
+            <img src="companylogo.png" class="footlogo">
+            <p id="foot">Company Telephone: 07967 420 069</p>
+            <img src="companylogo.png" class="footlogo">
+        </div>
+    </footer>

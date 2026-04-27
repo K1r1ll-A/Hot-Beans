@@ -1,0 +1,297 @@
+
+          .banner {
+    
+        height: 200px;
+        background: linear-gradient(135deg, #000000, #ffffff);
+        color: white;
+        font-size: 2rem;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 20px;
+        border: 2px solid white;
+
+        box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+    
+}
+
+.logo {
+    height: 250px;
+}
+
+.bannerh1 {
+    font-size: 65px;
+    color: #000000;
+    text-shadow: 0 3px 20px red,
+                 0 0 20px red,
+                 0 0 10px orange,
+                 4px -5px 6px yellow,
+                 -4px -10px 10px yellow,
+                 0 -10px 30px yellow;
+    animation: fire 2s infinite alternate linear;
+    margin:10px;
+
+}
+@keyframes fire {
+    0% {
+        text-shadow: 0 3px 20px red,
+                     0 0 20px red,
+                     0 0 10px orange,
+                     4px -5px 6px yellow,
+                     -4px -10px 10px yellow,
+                     0 -10px 30px yellow;
+      }
+
+    25% {
+          text-shadow: 0 3px 20px red,
+                       0 0 20px red,
+                       0 0 10px orange,
+                       -2px -5px 5px yellow,
+                       3px -10px 10px yellow,
+                       -4 -15px 20px yellow;
+      }
+
+    50% {
+          text-shadow: 0 3px 20px red,
+                       0 0 20px red,
+                       0 -5px 10px orange,
+                       3px -10px 10px yellow,
+                       -4px -15px 20px yellow,
+                       2px -20px 30px yellow;
+      }
+
+    75% {
+          text-shadow: 0 3px 20px red,
+                       0 0 20px red,
+                       0 -5px 10px orange,
+                       3px -10px 5px yellow,
+                       2px -20px 30px yellow,
+                       0 -25px 40px yellow;
+      }
+
+    100% {
+          text-shadow: 0 3px 20px red,
+                       0 0 10px red,
+                       0 0 0 orange,
+                       0 0 5px yellow,
+                       -2px -5px 5px yellow,
+                       4px -10px 10px yellow;
+      }
+}
+.navigation {
+    height: 100px;
+    background: linear-gradient(135deg, #000000, #ffffff);
+        font-size: 2rem;
+        font-family: Arial, sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius:20px;
+        border: 2px solid white;
+    
+}
+.navbut {
+    padding:15px;
+    margin:30px;
+    border: 3px solid black;
+    font-size: 20px;
+    border-radius:20px;
+    background-color: white;;
+
+}
+.navbut:hover {
+    padding:15px;
+    margin:30px;
+    border: 3px solid black;
+    color: #000000;
+    text-shadow: 0 3px 20px red,
+                 0 0 20px red,
+                 0 0 10px orange,
+                 4px -5px 6px yellow,
+                 -4px -10px 10px yellow,
+                 0 -10px 30px yellow;
+    animation: fire 2s infinite alternate linear;
+    background-color: grey;
+}
+body {
+    background: linear-gradient(135deg, #000000, #ffffff);
+}
+.footer {
+    display:flex;
+    border: 2px solid black;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+}
+#foot{
+    margin:10px
+}
+.titleh1 {
+    text-shadow: 0 3px 20px red,
+    0 0 20px red,
+    0 0 10px orange,
+    4px -5px 6px yellow,
+    -4px -10px 10px yellow,
+    0 -10px 30px yellow;
+animation: fire 2s infinite alternate linear;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.bannerp {
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:black;
+}
+.footlogo {
+    height:50px;
+    width:30px;
+}
+.homepage1 {
+    margin: 70px;
+    display: flex;
+        justify-content: center;
+}
+#homepage1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+#homepage2 {
+    margin: 70px;
+    display: flex;
+        justify-content: center;
+}
+.homepage2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+.homeimg {
+    height:200px;
+    width: 300px;
+    margin:40px;
+    border: solid black;
+    box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.5);
+}
+.teampage {
+    display:flex;
+    justify-content: center;
+}
+.member {
+    margin:10px;
+    padding:20px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+.team {
+    height:150px;
+    width:200px;
+    border:solid white 7px;
+    border-style: outset;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.5);
+}
+.joining {
+    display:flex;
+    justify-content: center;
+}
+#guyworking {
+    height:200px;
+    width:300px;
+    margin:10px;
+    height:150px;
+    width:200px;
+    border:solid white 7px;
+    border-style: outset;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, 0.5);
+}
+.form {
+    display: flex;
+  flex-direction: column; 
+  width: 300px;
+  margin: 0 auto; 
+}
+.inputbox {
+    height:25px;
+    margin:10px;
+    border: solid black 1px;
+    border-radius: 8px;
+}
+h3 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 10px 0 5px;
+}
+.jointext {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.5);
+    outline:solid black;
+    margin:10px;
+    font-size:30px;
+    
+   
+}
+.submit {
+    padding:15px;
+    margin:30px;
+    border: 3px solid black;
+    font-size: 20px;
+    border-radius:20px;
+    background-color: white;;
+    
+}
+.submit:hover {
+    padding:15px;
+    margin:30px;
+    border: 3px solid black;
+    color: #000000;
+    text-shadow: 0 3px 20px red,
+                 0 0 20px red,
+                 0 0 10px orange,
+                 4px -5px 6px yellow,
+                 -4px -10px 10px yellow,
+                 0 -10px 30px yellow;
+    animation: fire 2s infinite alternate linear;
+    background-color: grey;
+}
+#submit {
+    display: grid;
+    justify-content: center;
+}
+.inputbox:focus {
+    box-shadow: 0 3px 20px red,
+    0 0 20px red,
+    0 0 10px orange,
+    4px -5px 6px yellow,
+    -4px -10px 10px yellow,
+    0 -10px 30px yellow;
+animation: fire 2s infinite alternate linear;
+background-color: black;
+color:white;
+border-radius:8px;
+}
+.courses {
+    display:grid;
+    place-items: center;
+}
+.courselink {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    color:black;
+    margin:5px;
+    font-size: 30px;
+}
+.courselink:hover {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    color:black;
+    text-shadow: 0 3px 20px red,
+    0 0 20px red,
+    0 0 10px orange,
+    4px -5px 6px yellow,
+    -4px -10px 10px yellow,
+    0 -10px 30px yellow;
+}
+#message {
+    justify-content: center;
+    display:grid;
+}
